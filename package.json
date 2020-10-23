@@ -1,6 +1,6 @@
 {
   "name": "c-browser-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "浏览器客户端常用工具方法集合",
   "main": "/dist/bundle.js",
   "scripts": {
