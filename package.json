@@ -2,9 +2,10 @@
   "name": "c-browser-tools",
   "version": "1.0.1",
   "description": "浏览器客户端常用工具方法集合",
-  "main": "index.js",
+  "main": "/dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ddmy/c-browser-tools/issues"
   },
-  "homepage": "https://github.com/ddmy/c-browser-tools#readme"
+  "homepage": "https://github.com/ddmy/c-browser-tools#readme",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0"
+  }
 }

@@ -1,3 +1,4 @@
+import Cookie from './utils/coookie.js'
 const BT = {
   version: '1.0.1',
   test() {
@@ -6,4 +7,4 @@ const BT = {
   }
 }
 
-export default BT
+export { BT, Cookie }
