@@ -26,6 +26,4 @@ class Cookie {
   }
 }
 
-export default {
-  Cookie: new Cookie()
-}
+export default new Cookie()

@@ -1,10 +1,7 @@
-import Cookie from './utils/coookie.js'
-const BT = {
-  version: '1.0.1',
-  test() {
-    console.log('BT')
-    console.log(arguments)
-  }
+import { BT, Cookie } from './utils/index.js'
+
+if (module.hot) {
+  module.hot.accept();
 }
 
-export { BT, Cookie }
+console.log('index.js初始化', BT, Cookie)
