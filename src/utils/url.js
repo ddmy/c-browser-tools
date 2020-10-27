@@ -8,6 +8,12 @@ class Url {
       return null
     }
   }
+  useHttps (url) {
+    if (url) {
+      return url.replace(/^(http:)?\/\//, 'https://')
+    }
+    return ''
+  }
 }
 
 export default new Url()
