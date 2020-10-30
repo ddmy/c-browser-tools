@@ -11,4 +11,4 @@ const BT = {
   }
 }
 console.log('packageInfo', )
-export { BT, Cookie, Url, Image, localStorage }
+export default { BT, Cookie, Url, Image, localStorage }
